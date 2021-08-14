@@ -1,0 +1,82 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/noah/Unity Games/platformer/Platformer
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56703
+Successfully changed project path to: /Users/noah/Unity Games/platformer/Platformer
+/Users/noah/Unity Games/platformer/Platformer
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 111.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/noah/Unity Games/platformer/Platformer/Assets
+GfxDevice: creating device client; threaded=0
+2021-08-14 16:03:29.038 Unity[3266:5117127] Color LCD preferred device: AMD Radeon R9 M370X (high power)
+2021-08-14 16:03:29.038 Unity[3266:5117127] Metal devices available: 2
+2021-08-14 16:03:29.039 Unity[3266:5117127] 0: AMD Radeon R9 M370X (high power)
+2021-08-14 16:03:29.039 Unity[3266:5117127] 1: Intel Iris Pro Graphics (low power)
+2021-08-14 16:03:29.041 Unity[3266:5117127] Using device AMD Radeon R9 M370X (high power)
+Initializing Metal device caps: AMD Radeon R9 M370X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56266
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001002 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 195.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.053 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002213 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 160.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.368 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1814 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.8 MB.
+System memory in use after: 141.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2256.
+Total: 8.815994 ms (FindLiveObjects: 0.593680 ms CreateObjectMapping: 0.346532 ms MarkObjects: 7.375053 ms  DeleteObjects: 0.497053 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(6fc7dd124775b4d0f83aef0f198656ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6fc7dd124775b4d0f83aef0f198656ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99288a92a764a5cc4b43aa63714447e') in 0.020491 seconds
+  Import took 0.031981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000533 seconds.
+  path: Assets/Hero Knight - Pixel Art
+  artifactKey: Guid(0046e69b5c0354402809bc849f974ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art using Guid(0046e69b5c0354402809bc849f974ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd534ea13f2ba7d29a54659ebbeda739') in 0.003150 seconds
+  Import took 0.027141 seconds .
+
