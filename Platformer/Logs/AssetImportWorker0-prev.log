@@ -1,0 +1,163 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/noah/Unity Games/platformer/Platformer
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58465
+Successfully changed project path to: /Users/noah/Unity Games/platformer/Platformer
+/Users/noah/Unity Games/platformer/Platformer
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 44.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/noah/Unity Games/platformer/Platformer/Assets
+GfxDevice: creating device client; threaded=0
+2021-08-14 17:53:32.434 Unity[4075:5340383] Color LCD preferred device: AMD Radeon R9 M370X (high power)
+2021-08-14 17:53:32.434 Unity[4075:5340383] Metal devices available: 2
+2021-08-14 17:53:32.434 Unity[4075:5340383] 0: AMD Radeon R9 M370X (high power)
+2021-08-14 17:53:32.434 Unity[4075:5340383] 1: Intel Iris Pro Graphics (low power)
+2021-08-14 17:53:32.435 Unity[4075:5340383] Using device AMD Radeon R9 M370X (high power)
+Initializing Metal device caps: AMD Radeon R9 M370X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56075
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000418 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 47.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.723 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000466 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 45.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.262 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1813 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.0 MB.
+System memory in use after: 142.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2260.
+Total: 2.489605 ms (FindLiveObjects: 0.255151 ms CreateObjectMapping: 0.074397 ms MarkObjects: 2.087596 ms  DeleteObjects: 0.071448 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple_Decorations1.png
+  artifactKey: Guid(d63d3fe059687124d87ff7bee2e31733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple_Decorations1.png using Guid(d63d3fe059687124d87ff7bee2e31733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d48a78b6bf5806ca2062deb637fff17') in 0.398695 seconds
+  Import took 0.402635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/TileMap-2.png
+  artifactKey: Guid(c001188c436385346b8c7a5797406011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/TileMap-2.png using Guid(c001188c436385346b8c7a5797406011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2b1e9bcc4274c8cdeded3f73e7644a') in 0.014651 seconds
+  Import took 0.018364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Sun.png
+  artifactKey: Guid(796d5c3f22f7c8742ae85606dcdaa2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Sun.png using Guid(796d5c3f22f7c8742ae85606dcdaa2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4819ed24c7c65ef7e73a37bcab13480f') in 0.010211 seconds
+  Import took 0.013255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/NightSky.png
+  artifactKey: Guid(4912fab265f1b394ba5ade17c64287ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/NightSky.png using Guid(4912fab265f1b394ba5ade17c64287ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f576bd2412dcaea5c0291888cc6e85') in 0.011982 seconds
+  Import took 0.016236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/TileMap-1.png
+  artifactKey: Guid(6ef6f837792cd834aa11f0163ed98632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/TileMap-1.png using Guid(6ef6f837792cd834aa11f0163ed98632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e771ae105a935dbc36ac338365f61d3e') in 0.013379 seconds
+  Import took 0.017041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/DesBg_Forward.png
+  artifactKey: Guid(545c84f8584145a489c2c889305f682e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/DesBg_Forward.png using Guid(545c84f8584145a489c2c889305f682e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290fd31fa99f30b0fbc2be766a3e07d7') in 0.013641 seconds
+  Import took 0.016489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png
+  artifactKey: Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Temple Asset Pack_Test.png using Guid(ed9e32fd1bc536045920cc76f3079d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e63c1f56b6c82b33fe0b7b687903cb') in 0.012333 seconds
+  Import took 0.015350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/DesBg_Back.png
+  artifactKey: Guid(c80105b7ce9692143b6d8976c6bd1c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/DesBg_Back.png using Guid(c80105b7ce9692143b6d8976c6bd1c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8ab0e09c89b69e9248798a7e2d0211') in 0.013320 seconds
+  Import took 0.015910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/DesBg_Middle.png
+  artifactKey: Guid(4c4cd6f1e5d3ab148a52c448ac7013a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/DesBg_Middle.png using Guid(4c4cd6f1e5d3ab148a52c448ac7013a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6d872a32cca63a38ea31fc9c1d6dcc') in 0.011337 seconds
+  Import took 0.014170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.878648 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Desert.png
+  artifactKey: Guid(b96df2e5ce66afd43bf40041793ce6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Desert.png using Guid(b96df2e5ce66afd43bf40041793ce6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d12c080aff86a9e527cb864f91cbfa') in 0.025524 seconds
+  Import took 0.032848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.664457 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Desert.png
+  artifactKey: Guid(b96df2e5ce66afd43bf40041793ce6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Desert.png using Guid(b96df2e5ce66afd43bf40041793ce6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d1c4b47a2afd222c5e5a1058b0968c') in 0.018359 seconds
+  Import took 0.025225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 177.902406 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Desert.png
+  artifactKey: Guid(b96df2e5ce66afd43bf40041793ce6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Desert.png using Guid(b96df2e5ce66afd43bf40041793ce6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df1bf0ff0eded82aa787b2882416e9b') in 0.033781 seconds
+  Import took 0.037716 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

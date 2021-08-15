@@ -1,0 +1,258 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/noah/Unity Games/platformer/Platformer
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58608
+Successfully changed project path to: /Users/noah/Unity Games/platformer/Platformer
+/Users/noah/Unity Games/platformer/Platformer
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 45.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/noah/Unity Games/platformer/Platformer/Assets
+GfxDevice: creating device client; threaded=0
+2021-08-14 18:02:15.993 Unity[4136:5355317] Color LCD preferred device: AMD Radeon R9 M370X (high power)
+2021-08-14 18:02:15.993 Unity[4136:5355317] Metal devices available: 2
+2021-08-14 18:02:15.993 Unity[4136:5355317] 0: AMD Radeon R9 M370X (high power)
+2021-08-14 18:02:15.993 Unity[4136:5355317] 1: Intel Iris Pro Graphics (low power)
+2021-08-14 18:02:15.994 Unity[4136:5355317] Using device AMD Radeon R9 M370X (high power)
+Initializing Metal device caps: AMD Radeon R9 M370X
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000386 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 48.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.728 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000610 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 44.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.254 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1813 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.0 MB.
+System memory in use after: 142.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2260.
+Total: 3.230207 ms (FindLiveObjects: 0.462836 ms CreateObjectMapping: 0.213952 ms MarkObjects: 2.470370 ms  DeleteObjects: 0.081797 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Tiles/TilePalettes/Platforms.prefab
+  artifactKey: Guid(13575d92b7ac9411994991db75f3e909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/TilePalettes/Platforms.prefab using Guid(13575d92b7ac9411994991db75f3e909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f27bf01894697b3a98820aeea4024d4') in 0.226143 seconds
+  Import took 0.229926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.770106 seconds.
+  path: Assets/Tiles
+  artifactKey: Guid(d7f00e8ec39ea4ee2bc5c7599d011b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles using Guid(d7f00e8ec39ea4ee2bc5c7599d011b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300e4298d70ee382091fdf84bc14610c') in 0.002349 seconds
+  Import took 0.005522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055937 seconds.
+  path: Assets/Tiles/desert_bottom.asset
+  artifactKey: Guid(3ec8b96b26d47495c813121f6a43bd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/desert_bottom.asset using Guid(3ec8b96b26d47495c813121f6a43bd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236477ca7dd4b06f375e2a6aa6fdbfc2') in 0.239085 seconds
+  Import took 0.243711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Tiles/desert_top.asset
+  artifactKey: Guid(9604fec50808049a6a63135980fa3cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/desert_top.asset using Guid(9604fec50808049a6a63135980fa3cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5672a21260d71f3b0fccb68b21c66cc6') in 0.006060 seconds
+  Import took 0.009398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Tiles/desert_hill_big_right.asset
+  artifactKey: Guid(423852a9015364e1ba0f8573890e3300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/desert_hill_big_right.asset using Guid(423852a9015364e1ba0f8573890e3300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9dddc1d36f994c9d0d376653e40705') in 0.017459 seconds
+  Import took 0.020952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Tiles/desert_hill_small.asset
+  artifactKey: Guid(af709127d498446c5943fd7c026562a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/desert_hill_small.asset using Guid(af709127d498446c5943fd7c026562a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9a8be04ba9506e3d9d2d30ce7bf71e') in 0.005283 seconds
+  Import took 0.008438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Tiles/desert_hill_medium.asset
+  artifactKey: Guid(482bc29954d6b485aab6c0791331c56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/desert_hill_medium.asset using Guid(482bc29954d6b485aab6c0791331c56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce7ccf5d695c37fd5738f9e741c714a') in 0.005934 seconds
+  Import took 0.009203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Tiles/desert_hill_big_left.asset
+  artifactKey: Guid(763de519d3d3049bdbd7ecc97eb78cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/desert_hill_big_left.asset using Guid(763de519d3d3049bdbd7ecc97eb78cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab50fdea914df000cdc5b20fd2ceb1b5') in 0.004749 seconds
+  Import took 0.007936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.691399 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack
+  artifactKey: Guid(62be4675ebf1f68449d86ff76afac994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack using Guid(62be4675ebf1f68449d86ff76afac994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ed679d0d4db3b86f98b2abd0d9a12f') in 0.000843 seconds
+  Import took 0.004319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.156238 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps
+  artifactKey: Guid(47634895f7fd6944ca3f456328e55fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps using Guid(47634895f7fd6944ca3f456328e55fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5ca0ca1bdfd3c54248930275131e9f') in 0.002403 seconds
+  Import took 0.005803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.278956 seconds.
+  path: Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Desert.png
+  artifactKey: Guid(b96df2e5ce66afd43bf40041793ce6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lifty's Pixel Art Pack/Pixel Art Pack/TileMaps/Desert.png using Guid(b96df2e5ce66afd43bf40041793ce6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100a854bc1dd6da27a2db8808762c1ab') in 0.248770 seconds
+  Import took 0.253682 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001153 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.462 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.9 MB.
+System memory in use after: 158.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2273.
+Total: 4.561362 ms (FindLiveObjects: 0.458267 ms CreateObjectMapping: 0.311503 ms MarkObjects: 3.756091 ms  DeleteObjects: 0.031259 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001086 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.942 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 158.2 MB.
+System memory in use after: 158.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2277.
+Total: 6.726002 ms (FindLiveObjects: 0.780901 ms CreateObjectMapping: 0.309593 ms MarkObjects: 5.593818 ms  DeleteObjects: 0.038182 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1054.022687 seconds.
+  path: Assets/Hero Knight - Pixel Art/Sprites
+  artifactKey: Guid(e14e5185a32f9764587a60efb75130db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Sprites using Guid(e14e5185a32f9764587a60efb75130db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8b3ecafb63dbbb4a2f31201ecc2fe4') in 0.005546 seconds
+  Import took 0.009756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.130501 seconds.
+  path: Assets/Hero Knight - Pixel Art/Sprites/Background.png
+  artifactKey: Guid(33dccf83b7f7f294992c97ebe1990464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Sprites/Background.png using Guid(33dccf83b7f7f294992c97ebe1990464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960436a54d4c566029786b85f66271aa') in 0.062462 seconds
+  Import took 0.066513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Hero Knight - Pixel Art/Sprites/SlideDust.png
+  artifactKey: Guid(7fb51a422c4a36e40b71b06331a74b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Sprites/SlideDust.png using Guid(7fb51a422c4a36e40b71b06331a74b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4276eb5f34955118b58a428ff011dcd') in 0.015918 seconds
+  Import took 0.019821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Hero Knight - Pixel Art/Sprites/HeroKnight.png
+  artifactKey: Guid(ae297123f091bbf4e8f1835eb98fb293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Sprites/HeroKnight.png using Guid(ae297123f091bbf4e8f1835eb98fb293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9cd307ce17ecc94bb28daaf4d0ce5ac') in 0.310017 seconds
+  Import took 0.314121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Hero Knight - Pixel Art/Sprites/BlockFlash.png
+  artifactKey: Guid(a75445bb16444f14f96fdf9c734945cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Sprites/BlockFlash.png using Guid(a75445bb16444f14f96fdf9c734945cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5b28bb2f8aae3ea1763ee09098880a') in 0.022523 seconds
+  Import took 0.026508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Hero Knight - Pixel Art/Sprites/HeroKnight_DeathNoBlood.png
+  artifactKey: Guid(432e48af0c833ad4587d222b812b844f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Sprites/HeroKnight_DeathNoBlood.png using Guid(432e48af0c833ad4587d222b812b844f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47013f216740b9781f36912c042c38fe') in 0.038989 seconds
+  Import took 0.042378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Hero Knight - Pixel Art/Sprites/EnvironmentTiles.png
+  artifactKey: Guid(f094595c900579d4c85a02612d8fa36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Sprites/EnvironmentTiles.png using Guid(f094595c900579d4c85a02612d8fa36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4564e1da05c7c6e0df36fdc332d81c28') in 0.016103 seconds
+  Import took 0.019177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Hero Knight - Pixel Art/Sprites/HeroKnight_BlockNoEffect.png
+  artifactKey: Guid(d94b5c1ffa7794547b59105c8f561da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Sprites/HeroKnight_BlockNoEffect.png using Guid(d94b5c1ffa7794547b59105c8f561da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0695cb1233151fdac33d2509279b97a9') in 0.022198 seconds
+  Import took 0.025341 seconds .
+
